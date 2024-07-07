@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Kardex</title>
+    <link rel="stylesheet" href="gestion_kardex.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Kardex</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../polleria.html">Inicio</a></li>
+            <li><a href="../admin_login/admin.html">Panel de Administración</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Productos en Inventario</h2>
+            <table id="productosTable">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se llenará con productos del inventario -->
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Historial de Movimientos</h2>
+            <table id="movimientosTable">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Tipo de Movimiento</th>
+                        <th>Cantidad</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se llenará con los movimientos del kardex -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Pollería. Todos los derechos reservados.</p>
+    </footer>
+    <script src="gestion_kardex.js"></script>
+</body>
+</html>

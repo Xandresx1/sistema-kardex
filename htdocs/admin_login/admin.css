@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('admin.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white; /* Cambia el color del texto a blanco para mejor visibilidad */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

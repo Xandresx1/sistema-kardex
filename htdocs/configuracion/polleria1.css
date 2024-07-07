@@ -1,0 +1,67 @@
+body {
+    background: url('fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.totalBox {
+    border: 2px solid grey;
+    width: 450px;
+    height: 350px;
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.box {
+    font-size: 20px;
+    margin-left: 10%;
+    padding: 3px;
+    border-radius: 9px;
+    border-color: white;
+    width: 70%;
+}
+
+.texto {
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    margin-left: 10%;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.buttons {
+    cursor: pointer;
+}
+
+.eye-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.eye-icon {
+    width: 24px;
+    /* Ajusta el tamaño según tus necesidades */
+    height: 24px;
+    /* Ajusta el tamaño según tus necesidades */
+    vertical-align: middle;
+}

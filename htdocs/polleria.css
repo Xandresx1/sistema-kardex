@@ -1,0 +1,58 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background: url('polleria.jpg') no-repeat center center/cover;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    color: yellow;
+}
+
+#loginSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(44, 218, 25);
+    width: 300px;
+}
+
+#loginForm label,
+#loginForm input,
+#loginForm button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#loginForm input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#loginForm button {
+    background-color: #78a728;
+    color: rgba(9, 1, 12, 0.922);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes</title>
+    <link rel="stylesheet" href="reportes.css">
+</head>
+<body>
+    <header>
+        <h1>Reportes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../polleria.html">Inicio</a></li>
+            <li><a href="../admin_login/admin.html">Panel de Administración</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Generar Reportes</h2>
+            <form id="reporteForm">
+                <label for="fechaInicio">Fecha Inicio:</label>
+                <input type="date" id="fechaInicio" name="fechaInicio" required>
+                <label for="fechaFin">Fecha Fin:</label>
+                <input type="date" id="fechaFin" name="fechaFin" required>
+                <button type="submit">Generar Reporte</button>
+            </form>
+        </section>
+        <section>
+            <h2>Resultados del Reporte</h2>
+            <table id="resultadosReporte">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Monto Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se llenarán los resultados -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="reportes.js"></script>
+</body>
+</html>
