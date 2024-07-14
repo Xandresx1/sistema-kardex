@@ -18,8 +18,9 @@ header {
     background: rgba(0, 0, 0, 0.5);
 }
 
-header h1 {
-    color: yellow;
+header img {
+    max-width: 300px;
+    height: auto; 
 }
 
 #loginSection {
