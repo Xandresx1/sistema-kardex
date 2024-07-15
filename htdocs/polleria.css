@@ -9,30 +9,34 @@ html {
 .container {
     position: relative;
     height: 100%;
-    background: url('polleria.jpg') no-repeat center center/cover;
+    background: url('pollo6.jpg') no-repeat center center/cover;
+    
 }
 
 header {
     text-align: center;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
 }
 
-header h1 {
-    color: yellow;
+header img {
+    max-width: 300px; 
+    height: auto; 
 }
 
 #loginSection {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #f3bd0c;
     padding: 20px;
     border-radius: 10px;
-    color: rgb(44, 218, 25);
+    color: rgb(1, 1, 1);
     width: 300px;
-}
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    font-size: 18px; 
+  }
 
 #loginForm label,
 #loginForm input,
@@ -43,16 +47,27 @@ header h1 {
 }
 
 #loginForm input {
+    display: block;
+    width: 92%; 
     padding: 10px;
     border: none;
     border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#loginForm input[type="password"] {
+    text-security: disc; 
 }
 
 #loginForm button {
-    background-color: #78a728;
-    color: rgba(9, 1, 12, 0.922);
+    background-color: rgb(247, 13, 9);
+    color: rgba(246, 218, 3, 0.922);
+    font-weight: bold; /* Pone el texto en negrita */
+    font-family: Arial, sans-serif; /* Establece la fuente del texto */
+    font-size: 18px; /* Establece el tamaño de la fuente */
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+}
 }
