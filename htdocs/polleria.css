@@ -25,15 +25,18 @@ header img {
 
 #loginSection {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(4, 4, 4, 0.5);
+    background-color: #f3bd0c;
     padding: 20px;
     border-radius: 10px;
-    color: rgb(241, 245, 24);
+    color: rgb(1, 1, 1);
     width: 300px;
-}
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    font-size: 18px; 
+  }
 
 #loginForm label,
 #loginForm input,
@@ -44,16 +47,23 @@ header img {
 }
 
 #loginForm input {
+    display: block;
+    width: 90%; 
     padding: 10px;
     border: none;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 #loginForm button {
-    background-color: rgb(241, 245, 24);
-    color: rgba(9, 1, 12, 0.922);
+    background-color: rgb(247, 13, 9);
+    color: rgba(246, 218, 3, 0.922);
+    font-weight: bold; /* Pone el texto en negrita */
+    font-family: Arial, sans-serif; /* Establece la fuente del texto */
+    font-size: 18px; /* Establece el tamaño de la fuente */
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+}
 }
