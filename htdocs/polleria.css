@@ -48,11 +48,15 @@ header img {
 
 #loginForm input {
     display: block;
-    width: 90%; 
+    width: 92%; 
     padding: 10px;
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+#loginForm input[type="password"] {
+    text-security: disc; 
 }
 
 #loginForm button {
