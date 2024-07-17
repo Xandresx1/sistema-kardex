@@ -5,47 +5,66 @@ body {
     background: url('admin.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white; /* Cambia el color del texto a blanco para mejor visibilidad */
+    height: 100vh; /* Asegura que el body tenga la altura completa de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
     text-align: center;
     padding: 20px;
     background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    width: 100%;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
     text-align: center;
     margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 10px 0;
 }
 
 nav ul li a {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     text-decoration: none;
     padding: 10px 20px;
-    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px; /* Asegura que todos los botones tengan el mismo ancho */
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 main {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    margin: 20px;
+    padding: 20px;
     border-radius: 10px;
+    margin: 20px 20px 0; /* Ajusta el margen superior a 20px, y los márgenes laterales a 20px */
+    flex-grow: 1; /* Permite que el main ocupe el espacio disponible */
 }
 
 footer {
     text-align: center;
     padding: 10px;
     background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    width: 100%;
     position: fixed;
     bottom: 0;
-    width: 100%;
 }
+
