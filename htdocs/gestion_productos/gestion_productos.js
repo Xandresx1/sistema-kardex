@@ -35,7 +35,7 @@ function validarFormulario() {
 function agregarProducto() {
     const formData = new FormData(document.getElementById('productoForm'));
     formData.append('action', 'agregar_producto');  // Asegúrate de que la acción se está enviando
-    fetch('/cgi-bin/gestion_productos.pl', {
+    fetch('../../cgi-bin/gestion_kardex.pl?action=listar_movimientos', {
         method: 'POST',
         body: formData
     })
