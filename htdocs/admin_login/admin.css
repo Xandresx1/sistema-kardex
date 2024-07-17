@@ -2,69 +2,55 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('admin.jpg') no-repeat center center fixed;
+    background: -webkit-linear-gradient(90deg, #ff0000,#f38a1a,#fff700);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #ff0000,#f38a1a,#fff700);
     background-size: cover;
     color: white; /* Cambia el color del texto a blanco para mejor visibilidad */
-    height: 100vh; /* Asegura que el body tenga la altura completa de la pantalla */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 header {
     text-align: center;
     padding: 20px;
     background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    width: 100%;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    text-align: center;
     margin: 0;
+    padding: 0;
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    background-color: #333;
 }
 
 nav ul li {
-    margin: 10px 0;
+    float: none; /* Quitar el float */
 }
 
 nav ul li a {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
     color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    width: 200px; /* Asegura que todos los botones tengan el mismo ancho */
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #111;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
     text-align: center;
     background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    padding: 20px;
+    margin: 20px;
     border-radius: 10px;
-    margin: 20px 20px 0; /* Ajusta el margen superior a 20px, y los márgenes laterales a 20px */
-    flex-grow: 1; /* Permite que el main ocupe el espacio disponible */
 }
 
 footer {
     text-align: center;
     padding: 10px;
     background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    width: 100%;
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
-
