@@ -51,3 +51,4 @@ function mostrarResultados(resultados) {
     totalRow.insertCell(0).textContent = 'Total General';
     totalRow.insertCell(1).textContent = totalGeneral.toFixed(2);
 }
+
